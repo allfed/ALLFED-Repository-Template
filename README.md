@@ -6,17 +6,19 @@ All code written for ALLFED should follow the [PEP 8 Style Guide for Python](htt
 * Keep the code well documented
 * Every function needs a docstring in this form:
 ```
-def my_function(parameter_1, parameter_2,..., parameter_X):
-  """
-  Explanation of what the function does
-  
-  Explanation of what the parameters contain and their type
-  
-  Explanation of what the return value contains and its type
-  """
+def count_line(f, line):
+    """
+    Counts the number of times a line occurs. Case-sensitive.
+
+    Arguments:
+        f (file): the file to scan
+        line (str): the line to count
+
+    Returns:
+        int: the number of times the line occurs.
+    """
 ```
 * Write [decoupled code](https://goodresearch.dev/decoupled.html), e.g. Functions should do exactly one thing and be as short as possible
-* Every function needs a test to make sure it works as intended
 * Naming conventions:
   - Snake case for variables and module: variable_name, my_module.py
   - Camel case for class name: MyClass
@@ -28,8 +30,25 @@ def my_function(parameter_1, parameter_2,..., parameter_X):
 To make this easier you can use auto-formatter that change your code to be formatted in PEP 8 when you safe it. E.g. [here for Spyder](https://stackoverflow.com/questions/51463223/how-to-use-pep8-module-using-spyder).
 
 ### Testing
+We want to create reliable code. This means, as much of the code needs to be automatically tested, to make sure that everything runs as intended. Therefore, every possible function should have some kind of `assert` that tests if it works. For bigger projects, use manual test suites like [pytest](https://docs.pytest.org/en/7.1.x/) or automated testing suites like [Travis](https://www.travis-ci.com/). You can read more about testing [here](https://goodresearch.dev/testing.html).
 
 ### Documenting
+Documenting your code is only one part of the documentation we want to create. Every larger repository needs:
+* a readme file that explains what the repository is for and how it is organized, which should contain:
+    - A one-sentence description of your project
+    - A longer description of your project
+    - Installation instructions
+    - General orientation to the codebase and usage instructions
+    - Links to papers
+    - Links to extended docs
+    - License
+
+* a tutorial Jupyter Notebook to explain how the repository is supposed to be used
+* (if the project gets very big) an automated documentation hosted on [readthedocs](https://readthedocs.org/)
+* creating meaningful error messages for typical errors during runtime (e.g. by using `assert` or `try-catch`
+* Create a [visual representation](https://goodresearch.dev/_images/pcbi.1007358.g002.PNG_L.png) of how the different files interact with each other
+
+ 
   
 ## Project Skeleton
 This repository already has the folder structure we use for repositories. Every folder has an additional readme, to tell you what needs to go in there. 
