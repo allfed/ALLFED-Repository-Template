@@ -34,7 +34,15 @@ We want to create reliable code. This means, as much of the code needs to be aut
 
 ### Documenting
 Documenting your code is only one part of the documentation we want to create. Every larger repository needs:
-* a readme file that explains what the repository is for and how it is organized
+* a readme file that explains what the repository is for and how it is organized, which should contain:
+    - A one-sentence description of your project
+    - A longer description of your project
+    - Installation instructions
+    - General orientation to the codebase and usage instructions
+    - Links to papers
+    - Links to extended docs
+    - License
+
 * a tutorial Jupyter Notebook to explain how the repository is supposed to be used
 * (if the project gets very big) an automated documentation hosted on [readthedocs](https://readthedocs.org/)
 * creating meaningful error messages for typical errors during runtime (e.g. by using `assert` or `try-catch`
