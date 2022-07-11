@@ -16,7 +16,7 @@ def my_function(parameter_1, parameter_2,..., parameter_X):
   """
 ```
 * Write [decoupled code](https://goodresearch.dev/decoupled.html), e.g. Functions should do exactly one thing and be as short as possible
-* Every function needs a test to make sure it works as intendet
+* Every function needs a test to make sure it works as intended
 * Naming conventions:
   - Snake case for variables and module: variable_name, my_module.py
   - Camel case for class name: MyClass
