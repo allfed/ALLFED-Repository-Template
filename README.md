@@ -26,6 +26,11 @@ def my_function(parameter_1, parameter_2,..., parameter_X):
 ```
 * Functions should do exactly one thing and be no longer than 20 lines
 * Every function needs a test to make sure it works as intendet
+* Naming conventions:
+  - Snake case for variables and module: variable_name, my_module.py
+  - Camel case for class name: MyClass
+  - Camel case with spaces for jupyter notebook: Analyze Brain Data.ipynb
+
   
 # Project Skeleton
 This repository already has the folder structure we use for repositories. Every folder has an additional readme, to tell you what needs to go in there. 
