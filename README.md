@@ -24,7 +24,7 @@ def my_function(parameter_1, parameter_2,..., parameter_X):
   Explanation of what the return value contains and its type
   """
 ```
-* Functions should do exactly one thing and be no longer than 20 lines
+* Functions should do exactly one thing and be as short as possible
 * Every function needs a test to make sure it works as intendet
 * Naming conventions:
   - Snake case for variables and module: variable_name, my_module.py
