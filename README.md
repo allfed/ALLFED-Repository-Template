@@ -30,6 +30,12 @@ To make this easier you can use auto-formatter that change your code to be forma
 We want to create reliable code. This means, as much of the code needs to be automatically tested, to make sure that everything runs as intended. Therefore, every possible function should have some kind of `assert` that tests if it works. For bigger projects, use manual test suites like [pytest](https://docs.pytest.org/en/7.1.x/) or automated testing suites like [Travis](https://www.travis-ci.com/). You can read more about testing [here](https://goodresearch.dev/testing.html).
 
 ### Documenting
+Documenting your code is only one part of the documentation we want to create. Every larger repository needs:
+* a readme file that explains what the repository is for and how it is organized
+* a tutorial Jupyter Notebook to explain how the repository is supposed to be used
+* (if the project gets very big) an automated documentation hosted on [readthedocs](https://readthedocs.org/)
+* creating meaningful error messages for typical errors during runtime (e.g. by using `assert` or `try-catch`
+ 
   
 ## Project Skeleton
 This repository already has the folder structure we use for repositories. Every folder has an additional readme, to tell you what needs to go in there. 
