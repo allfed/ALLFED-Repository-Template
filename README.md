@@ -6,6 +6,9 @@ Fork this and use it as a template when you start a new project!
 * Project Skeleton
 * Code examples
 
+# Environment
+Every ALLFED project is run in its own virtual environment. Therefore, every project needs an `environment.yml` file. The one in this repository is only an example and should not be used for any actual project. To create and organize virtual environments we use [conda](https://docs.conda.io/en/latest/miniconda.html). 
+
 
 # Python Style Guide
 All code written for ALLFED should follow the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/). Especially important are:
