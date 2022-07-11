@@ -31,6 +31,8 @@ def my_function(parameter_1, parameter_2,..., parameter_X):
   - Camel case for class name: MyClass
   - Camel case with spaces for jupyter notebook: Analyze Brain Data.ipynb
 
+
+To make this easier you can use auto-formatter that change your code to be formatted in PEP 8 when you safe it. E.g. [here for Spyder](https://stackoverflow.com/questions/51463223/how-to-use-pep8-module-using-spyder).
   
 # Project Skeleton
 This repository already has the folder structure we use for repositories. Every folder has an additional readme, to tell you what needs to go in there. 
