@@ -9,7 +9,7 @@ Fork this and use it as a template when you start a new project!
 
 # Python Style Guide
 All code written for ALLFED should follow the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/). Especially important are:
-* Keep the code well documented. 
+* Keep the code well documented
 * Every function needs a docstring in this form:
 ```
 def my_function(parameter1, parameter2):
@@ -21,7 +21,7 @@ def my_function(parameter1, parameter2):
   Explanation of what the return value contains and its type
   """
 ```
-* Functions should do exactly one thing and be not longer than 20 lines
+* Functions should do exactly one thing and be no longer than 20 lines
 * Every function needs a test to make sure it works as intendet
   
   
