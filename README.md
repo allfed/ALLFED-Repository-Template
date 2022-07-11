@@ -22,7 +22,10 @@ def my_function(parameter1, parameter2):
   
   Return value:
   Explanation of what it contains and its type
+  """
 ```
+* Functions should do exactly one thing and be not longer than 20 lines
+* Every function needs a test to make sure it works as intendet
   
   
 
