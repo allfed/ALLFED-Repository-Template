@@ -16,12 +16,9 @@ def my_function(parameter1, parameter2):
   """
   Explanation of what the function does
   
-  Parameter explanation:
-  parameter1: Explanation of what it contains and its type
-  ...
+  Explanation of what the parameters contain and their type
   
-  Return value:
-  Explanation of what it contains and its type
+  Explanation of what the return value contains and its type
   """
 ```
 * Functions should do exactly one thing and be not longer than 20 lines
