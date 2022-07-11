@@ -10,7 +10,7 @@ ALLFED publishes its code in Open Access. For this we use the [**Apache 2.0 Lice
 # Gitignore
 The [.gitignore file](https://git-scm.com/docs/gitignore) is the default one for Python. Make sure you change it when using another programming language. 
 
-# Python Style Guide
+# ALLFED Python Style Guide
 All code written for ALLFED should follow the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/). Especially important are:
 * Keep the code well documented
 * Every function needs a docstring in this form:
@@ -31,6 +31,7 @@ def my_function(parameter_1, parameter_2,..., parameter_X):
   - Camel case for class name: MyClass
   - Camel case with spaces for jupyter notebook: Analyze Brain Data.ipynb
 * Delete dead code! Don't outcomment code you don't use anymore, but delete it instead. If you need to find it again, that's what we have git for. 
+* Use Jupyter Notebooks only for explanations and visualization. The actual programming should be happening in `.py` files. 
 
 
 To make this easier you can use auto-formatter that change your code to be formatted in PEP 8 when you safe it. E.g. [here for Spyder](https://stackoverflow.com/questions/51463223/how-to-use-pep8-module-using-spyder).
