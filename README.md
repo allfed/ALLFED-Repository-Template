@@ -30,6 +30,7 @@ def my_function(parameter_1, parameter_2,..., parameter_X):
   - Snake case for variables and module: variable_name, my_module.py
   - Camel case for class name: MyClass
   - Camel case with spaces for jupyter notebook: Analyze Brain Data.ipynb
+* Delete dead code! Don't outcomment code you don't use anymore, but delete it instead. If you need to find it again, that's what we have git for. 
 
 
 To make this easier you can use auto-formatter that change your code to be formatted in PEP 8 when you safe it. E.g. [here for Spyder](https://stackoverflow.com/questions/51463223/how-to-use-pep8-module-using-spyder).
