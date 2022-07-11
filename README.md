@@ -38,8 +38,7 @@ Documenting your code is only one part of the documentation we want to create. E
 * a tutorial Jupyter Notebook to explain how the repository is supposed to be used
 * (if the project gets very big) an automated documentation hosted on [readthedocs](https://readthedocs.org/)
 * creating meaningful error messages for typical errors during runtime (e.g. by using `assert` or `try-catch`
-* Create a visual representation of how the different files interact with each other, example:
-![https://goodresearch.dev/_images/pcbi.1007358.g002.PNG_L.png](https://goodresearch.dev/_images/pcbi.1007358.g002.PNG_L.png)
+* Create a [visual representation](https://goodresearch.dev/_images/pcbi.1007358.g002.PNG_L.png) of how the different files interact with each other
 
  
   
