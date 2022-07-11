@@ -1,14 +1,8 @@
 # ALLFED-Repository-Template
 Fork this and use it as a template when you start a new project!
 
-# Things to add
-* Environments
-* Project Skeleton
-* Code examples
-
 # Environment
 Every ALLFED project is run in its own virtual environment. Therefore, every project needs an `environment.yml` file. The one in this repository is only an example and should not be used for any actual project. To create and organize virtual environments we use [conda](https://docs.conda.io/en/latest/miniconda.html). 
-
 
 # Python Style Guide
 All code written for ALLFED should follow the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/). Especially important are:
@@ -27,9 +21,8 @@ def my_function(parameter1, parameter2):
 * Functions should do exactly one thing and be no longer than 20 lines
 * Every function needs a test to make sure it works as intendet
   
-  
-
-
+# Project Skeleton
+This repository already has the folder structure we use for repositories. Every folder has an additional readme, to tell you what needs to go in there. 
 
 # Acknowledgment
 This is strongly based on the ["Good Research Code Handbook"](https://goodresearch.dev/index.html). If something here confuses you, it makes sense to read about it there. Pretty good explanations. 
