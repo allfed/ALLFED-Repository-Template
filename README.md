@@ -30,5 +30,8 @@ def my_function(parameter_1, parameter_2,..., parameter_X):
 # Project Skeleton
 This repository already has the folder structure we use for repositories. Every folder has an additional readme, to tell you what needs to go in there. 
 
+# Making the repository a pip installable Python package
+For some repositories it makes sense to make them installable via pip (e.g. a model we want to share easily). In this case you can use the explanation [here](https://goodresearch.dev/setup.html).
+
 # Acknowledgment
 This is strongly based on the ["Good Research Code Handbook"](https://goodresearch.dev/index.html). If something here confuses you, it makes sense to read about it there. Pretty good explanations. 
