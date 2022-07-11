@@ -16,7 +16,6 @@ def my_function(parameter_1, parameter_2,..., parameter_X):
   """
 ```
 * Write [decoupled code](https://goodresearch.dev/decoupled.html), e.g. Functions should do exactly one thing and be as short as possible
-* Every function needs a test to make sure it works as intended
 * Naming conventions:
   - Snake case for variables and module: variable_name, my_module.py
   - Camel case for class name: MyClass
@@ -28,6 +27,7 @@ def my_function(parameter_1, parameter_2,..., parameter_X):
 To make this easier you can use auto-formatter that change your code to be formatted in PEP 8 when you safe it. E.g. [here for Spyder](https://stackoverflow.com/questions/51463223/how-to-use-pep8-module-using-spyder).
 
 ### Testing
+We want to create reliable code. This means, as much of the code needs to be automatically tested, to make sure that everything runs as intended. This means that every possible function should have some kind of `assert` that tests if it works. For bigger projects, use automated testing suites life [Travis](https://www.travis-ci.com/) (@all: are there better ones?). You can read more about testing [here](https://goodresearch.dev/testing.html).
 
 ### Documenting
   
