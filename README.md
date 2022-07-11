@@ -6,14 +6,17 @@ All code written for ALLFED should follow the [PEP 8 Style Guide for Python](htt
 * Keep the code well documented
 * Every function needs a docstring in this form:
 ```
-def my_function(parameter_1, parameter_2,..., parameter_X):
-  """
-  Explanation of what the function does
-  
-  Explanation of what the parameters contain and their type
-  
-  Explanation of what the return value contains and its type
-  """
+def count_line(f, line):
+    """
+    Counts the number of times a line occurs. Case-sensitive.
+
+    Arguments:
+        f (file): the file to scan
+        line (str): the line to count
+
+    Returns:
+        int: the number of times the line occurs.
+    """
 ```
 * Write [decoupled code](https://goodresearch.dev/decoupled.html), e.g. Functions should do exactly one thing and be as short as possible
 * Naming conventions:
