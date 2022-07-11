@@ -15,7 +15,7 @@ All code written for ALLFED should follow the [PEP 8 Style Guide for Python](htt
 * Keep the code well documented
 * Every function needs a docstring in this form:
 ```
-def my_function(parameter1, parameter2,..., parameterX):
+def my_function(parameter_1, parameter_2,..., parameter_X):
   """
   Explanation of what the function does
   
