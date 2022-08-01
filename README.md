@@ -1,5 +1,5 @@
 # ALLFED-Repository-Template
-Fork this and use it as a template when you start a new project!
+Use this as template when you start a new project
 
 ## ALLFED Python Style Guide
 All code written for ALLFED should follow the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/). Especially important are:
