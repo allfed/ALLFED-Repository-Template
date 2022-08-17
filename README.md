@@ -1,5 +1,5 @@
 # ALLFED-Repository-Template
-Fork this and use it as a template when you start a new project!
+Use this as template when you start a new project
 
 ## ALLFED Python Style Guide
 All code written for ALLFED should follow the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/). Especially important are:
@@ -30,7 +30,7 @@ def count_line(f, line):
 To make this easier you can use auto-formatter that change your code to be formatted in PEP 8 when you safe it. E.g. [here for Spyder](https://stackoverflow.com/questions/51463223/how-to-use-pep8-module-using-spyder).
 
 ### Testing
-We want to create reliable code. This means, as much of the code needs to be automatically tested, to make sure that everything runs as intended. Therefore, every possible function should have some kind of `assert` that tests if it works. For bigger projects, use manual test suites like [pytest](https://docs.pytest.org/en/7.1.x/) or automated testing suites like [Travis](https://www.travis-ci.com/). You can read more about testing [here](https://goodresearch.dev/testing.html).
+We want to create reliable code. This means, as much of the code needs to be automatically tested, to make sure that everything runs as intended. Therefore, every possible function should have some kind of `assert` that tests if it works. For bigger projects, use manual test suites like [pytest](https://docs.pytest.org/en/7.1.x/) and automated testing suites. You can read more about testing [here](https://goodresearch.dev/testing.html).
 
 ### Documenting
 Documenting your code is only one part of the documentation we want to create. Every larger repository needs:
@@ -48,8 +48,7 @@ Documenting your code is only one part of the documentation we want to create. E
 * creating meaningful error messages for typical errors during runtime (e.g. by using `assert` or `try-catch`
 * Create a [visual representation](https://goodresearch.dev/_images/pcbi.1007358.g002.PNG_L.png) of how the different files interact with each other
 
- 
-  
+   
 ## Project Skeleton
 This repository already has the folder structure we use for repositories. Every folder has an additional readme, to tell you what needs to go in there. 
 
@@ -64,6 +63,10 @@ ALLFED publishes its code in Open Access. For this we use the [**Apache 2.0 Lice
 
 ## Gitignore
 The [.gitignore file](https://git-scm.com/docs/gitignore) is the default one for Python. Make sure you change it when using another programming language. 
+
+## Further reading
+* [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
+* 
 
 ## Acknowledgment
 This is strongly based on the ["Good Research Code Handbook"](https://goodresearch.dev/index.html). If something here confuses you, it makes sense to read about it there. Pretty good explanations. 
