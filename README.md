@@ -59,7 +59,7 @@ For some repositories it makes sense to make them installable via pip (e.g. a mo
 Every ALLFED project is run in its own virtual environment. Therefore, every project needs an `environment.yml` file. The one in this repository is only an example and should not be used for any actual project. To create and organize virtual environments we use [conda](https://docs.conda.io/en/latest/miniconda.html). 
 
 ## Requirements
-
+Every ALLFED project needs a requirements file that specifies what packages are needed to run the project. You can find an example file in the repository. 
 
 ## License
 ALLFED publishes its code in Open Access. For this we use the [**Apache 2.0 License**](https://www.planetcrust.com/what-does-apache-2-0-license-mean). This license allows very free use of the code, but makes sure that ALLFED cannot be sued if something goes wrong with the code. The license template in this repository needs to be adapted when a new project is created. 
