@@ -26,7 +26,7 @@ def count_line(f, line):
   - Camel case with spaces for jupyter notebook: Analyze Brain Data.ipynb
 * Delete dead code! Don't outcomment code you don't use anymore, but delete it instead. If you need to find it again, that's what we have git for. 
 * Use Jupyter Notebooks only for explanations and visualization. The actual programming should be happening in `.py` files. 
-* This repository is automatically set up with Github Actions that will format your code using black and check for problems with flake8 ([without E203, W503](https://black.readthedocs.io/en/stable/faq.html#why-are-flake8-s-e203-and-w503-violated)). If either of them fails, you will not be able to merge your files unless you fix it. If this creates problem you cannot solve contact: florian@allfed.info
+* This repository is automatically set up with Github Actions/[Lint Action](https://github.com/marketplace/actions/lint-action) that will format your code using black and check for problems with flake8 ([without E203, W503](https://black.readthedocs.io/en/stable/faq.html#why-are-flake8-s-e203-and-w503-violated)). If either of them fails, you will not be able to merge your files unless you fix it. If this creates problem you cannot solve contact: florian@allfed.info
 
 
 To make this easier you can use linter (auto-formatter) that change your code to be formatted in PEP 8 when you safe it. E.g. [here for Spyder](https://stackoverflow.com/questions/51463223/how-to-use-pep8-module-using-spyder) or [VS Code](https://code.visualstudio.com/docs/python/linting). 
