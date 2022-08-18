@@ -1,6 +1,7 @@
 # ALLFED-Repository-Template
 Use this as template when you start a new project
 
+
 ## ALLFED Python Style Guide
 All code written for ALLFED should follow the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/). Especially important are:
 * Keep the code well documented
@@ -25,15 +26,15 @@ def count_line(f, line):
   - Camel case with spaces for jupyter notebook: Analyze Brain Data.ipynb
 * Delete dead code! Don't outcomment code you don't use anymore, but delete it instead. If you need to find it again, that's what we have git for. 
 * Use Jupyter Notebooks only for explanations and visualization. The actual programming should be happening in `.py` files. 
-* This repository is automatically set up with Github Actions that will format your code using black and check for problems with flake8 ([without E203](https://black.readthedocs.io/en/stable/faq.html#why-are-flake8-s-e203-and-w503-violated)). If either of them fails, you will not be able to merge your files unless you fix it. If this creates problem you cannot solve contact: florian@allfed.info
+* This repository is automatically set up with Github Actions that will format your code using black and check for problems with flake8 ([without E203, W503](https://black.readthedocs.io/en/stable/faq.html#why-are-flake8-s-e203-and-w503-violated)). If either of them fails, you will not be able to merge your files unless you fix it. If this creates problem you cannot solve contact: florian@allfed.info
 
 
-To make this easier you can use auto-formatter that change your code to be formatted in PEP 8 when you safe it. E.g. [here for Spyder](https://stackoverflow.com/questions/51463223/how-to-use-pep8-module-using-spyder).
+To make this easier you can use linter (auto-formatter) that change your code to be formatted in PEP 8 when you safe it. E.g. [here for Spyder](https://stackoverflow.com/questions/51463223/how-to-use-pep8-module-using-spyder) or [VS Code](https://code.visualstudio.com/docs/python/linting). 
 
-### Testing
+## Testing
 We want to create reliable code. This means, as much of the code needs to be automatically tested, to make sure that everything runs as intended. Therefore, every possible function should have some kind of `assert` that tests if it works. We use pytest [pytest](https://docs.pytest.org/en/7.1.x/) as our main test suit. All tests that you put in the tests folder in here are automatically run every time you push code. You can read more about testing [here](https://goodresearch.dev/testing.html).
 
-### Documenting
+## Documenting
 Documenting your code is only one part of the documentation we want to create. Every larger repository needs:
 * a readme file that explains what the repository is for and how it is organized, which should contain:
     - A one-sentence description of your project
@@ -67,9 +68,9 @@ ALLFED publishes its code in Open Access. For this we use the [**Apache 2.0 Lice
 ## Gitignore
 The [.gitignore file](https://git-scm.com/docs/gitignore) is the default one for Python. Make sure you change it when using another programming language. 
 
-## Further reading
+## Further reading/Misc
 * [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
-* 
+* We are using [Github Copilot](https://github.com/features/copilot) to write faster and cleaner code. If you would also like to have a license contact team@allfed.info
 
 ## Acknowledgment
 This is strongly based on the ["Good Research Code Handbook"](https://goodresearch.dev/index.html). If something here confuses you, it makes sense to read about it there. Pretty good explanations. 
