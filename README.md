@@ -32,7 +32,7 @@ def count_line(f, line):
 To make this easier you can use linter (auto-formatter) that change your code to be formatted in PEP 8 when you safe it. E.g. [here for Spyder](https://stackoverflow.com/questions/51463223/how-to-use-pep8-module-using-spyder) or [VS Code](https://code.visualstudio.com/docs/python/linting). 
 
 ## Testing
-We want to create reliable code. This means, as much of the code needs to be automatically tested, to make sure that everything runs as intended. Therefore, every possible function should have some kind of `assert` that tests if it works. We use pytest [pytest](https://docs.pytest.org/en/7.1.x/) as our main test suit. All tests that you put in the tests folder in here are automatically run every time you push code. You can read more about testing [here](https://goodresearch.dev/testing.html).
+We want to create reliable code. This means, as much of the code needs to be automatically tested, to make sure that everything runs as intended. Therefore, every possible function should have some kind of `assert` that tests if it works. We use pytest [pytest](https://docs.pytest.org/en/7.1.x/) as our main test suit. All tests that you put in the tests folder in here are automatically run every time you push code. You can read more about testing [here](https://goodresearch.dev/testing.html). To adapt the testing.yml to your repository you just have to adapt the requirements in requirements.txt. Everything else should work on its own. You can find an example of how a test file should look like in the tests folder. 
 
 ## Documenting
 Documenting your code is only one part of the documentation we want to create. Every larger repository needs:
@@ -70,7 +70,8 @@ The [.gitignore file](https://git-scm.com/docs/gitignore) is the default one for
 
 ## Further reading/Misc
 * [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
-* We are using [Github Copilot](https://github.com/features/copilot) to write faster and cleaner code. If you would also like to have a license contact team@allfed.info
+* [General course to get to know the Python skills needed to the work at ALLFED](https://github.com/florianjehn/python-for-environmental-science)
+* We are using [Github Copilot](https://github.com/features/copilot) to write faster and cleaner code. If you would also like to have a license contact finance@allfed.info or florian@allfed.info
 
 ## Acknowledgment
 This is strongly based on the ["Good Research Code Handbook"](https://goodresearch.dev/index.html). If something here confuses you, it makes sense to read about it there. Pretty good explanations. 
