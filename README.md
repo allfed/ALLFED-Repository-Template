@@ -38,7 +38,7 @@ We want to create reliable code. This means, as much of the code needs to be aut
 ![Testing](https://github.com/allfed/allfed-repository-template/actions/workflows/testing.yml/badge.svg)
 
 
-## Documenting
+## Documenting in small projects
 Documenting your code is only one part of the documentation we want to create. Every larger repository needs:
 * a readme file that explains what the repository is for and how it is organized, which should contain:
     - A one-sentence description of your project
@@ -50,7 +50,11 @@ Documenting your code is only one part of the documentation we want to create. E
     - License
 
 * a tutorial Jupyter Notebook to explain how the repository is supposed to be used
-* (if the project gets very big) an automated documentation via [Gitub Actions]()
+
+
+## Documenting in big projects
+All the things for the small projects, but also:
+* An automated documentation via [Gitub Actions]()
 * Create a [visual representation](https://goodresearch.dev/_images/pcbi.1007358.g002.PNG_L.png) of how the different files interact with each other
 
 ## Making the repository citable
