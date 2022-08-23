@@ -33,7 +33,10 @@ def count_line(f, line):
 To make this easier you can use linter (auto-formatter) that change your code to be formatted in PEP 8 when you safe it. E.g. [here for Spyder](https://stackoverflow.com/questions/51463223/how-to-use-pep8-module-using-spyder) or [VS Code](https://code.visualstudio.com/docs/python/linting). 
 
 ## Testing
-We want to create reliable code. This means, as much of the code needs to be automatically tested, to make sure that everything runs as intended. Therefore, every possible function should have some kind of `assert` that tests if it works. We use pytest [pytest](https://docs.pytest.org/en/7.1.x/) as our main test suit. All tests that you put in the tests folder in here are automatically run every time you push code. You can read more about testing [here](https://goodresearch.dev/testing.html). To adapt the testing.yml to your repository you just have to adapt the requirements in requirements.txt. Everything else should work on its own. You can find an example of how a test file should look like in the tests folder. 
+We want to create reliable code. This means, as much of the code needs to be automatically tested, to make sure that everything runs as intended. Therefore, every possible function should have some kind of `assert` that tests if it works. We use pytest [pytest](https://docs.pytest.org/en/7.1.x/) as our main test suit. All tests that you put in the tests folder in here are automatically run every time you push code. You can read more about testing [here](https://goodresearch.dev/testing.html). To adapt the testing.yml to your repository you just have to adapt the requirements in requirements.txt. Everything else should work on its own. You can find an example of how a test file should look like in the tests folder. Once you go the testing set up, also make sure to add the testing badge to the readme of your repository. Simply change the URL to your repository in this badge:
+
+![Testing](https://github.com/allfed/allfed-repository-template/actions/workflows/testing.yml/badge.svg)
+
 
 ## Documenting
 Documenting your code is only one part of the documentation we want to create. Every larger repository needs:
@@ -50,6 +53,12 @@ Documenting your code is only one part of the documentation we want to create. E
 * (if the project gets very big) an automated documentation via [Gitub Actions]()
 * Create a [visual representation](https://goodresearch.dev/_images/pcbi.1007358.g002.PNG_L.png) of how the different files interact with each other
 
+## Making the repository citable
+All ALLFED repositories should be citable by release. For this we use [Zenodo](https://zenodo.org/). This has to be activated by an Admin (so either Florian or Morgan). Once you have a manuscript where you need to cite the repository let them know and they will activate it. This will also create a doi badge, which should be included in the readme, like this:
+
+---
+[![DOI](https://zenodo.org/badge/380878388.svg)](https://zenodo.org/badge/latestdoi/380878388)
+---
    
 ## Project Skeleton
 This repository already has the folder structure we use for repositories. Every folder has an additional readme, to tell you what needs to go in there. 
