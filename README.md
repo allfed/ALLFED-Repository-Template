@@ -57,7 +57,11 @@ Documenting your code is only one part of the documentation we want to create. E
 All ALLFED repositories should be citable by release. For this we use [Zenodo](https://zenodo.org/). This has to be activated by an Admin (so either Florian or Morgan). Once you have a manuscript where you need to cite the repository let them know and they will activate it. This will also create a doi badge, which should be included in the readme, like this:
 
 ---
-[![DOI](https://zenodo.org/badge/380878388.svg)](https://zenodo.org/badge/latestdoi/380878388)
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6865646.svg)](https://doi.org/10.5281/zenodo.6865646)
+
+
 ---
    
 ## Project Skeleton
