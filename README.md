@@ -85,7 +85,7 @@ The [.gitignore file](https://git-scm.com/docs/gitignore) is the default one for
 ## Further reading/Misc
 * [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
 * [General course to get to know the Python skills needed to the work at ALLFED](https://github.com/florianjehn/python-for-environmental-science)
-* We are using [Github Copilot](https://github.com/features/copilot) to write faster and cleaner code. If you would also like to have a license contact finance@allfed.info or florian@allfed.info
+* We are using [Github Copilot](https://github.com/features/copilot) to write faster and cleaner code. If you would also like to have a license contact finance@allfed.info
 
 ## Acknowledgment
 This is strongly based on the ["Good Research Code Handbook"](https://goodresearch.dev/index.html). If something here confuses you, it makes sense to read about it there. Pretty good explanations. 
