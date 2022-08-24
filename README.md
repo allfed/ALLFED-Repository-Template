@@ -1,5 +1,5 @@
 # ALLFED-Repository-Template
-Use this as template when you start a new project
+Use this as template when you start a new project by clicking "Use this template" in the top right.
 
 
 ## ALLFED Python Style Guide
