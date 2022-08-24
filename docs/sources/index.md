@@ -1,5 +1,5 @@
 # ALLFED-Repository-Template
-Use this as template when you start a new project
+Use this as template when you start a new project by clicking "Use this template" in the top right.
 
 
 ## ALLFED Python Style Guide
@@ -54,7 +54,10 @@ Documenting your code is only one part of the documentation we want to create. E
 
 ## Documenting in big projects
 All the things for the small projects, but also:
-* An automated documentation via [Gitub Actions]()
+* An automated documentation via Gitub Actions. This is already set up in this repository. Is uses the code from [this post](https://towardsdatascience.com/easily-automate-and-never-touch-your-documentation-again-a98c91ce1b95) and combines it with [this one](https://blog.elmah.io/deploying-a-mkdocs-documentation-site-with-github-actions/). It also is setup that it will only look for python files in the src folder. So, make sure that everything is in there (you can changes this behavior in the main function of `automate_mkdocs.py`). To get it running do the following
+    * go to Settings --> Pages 
+    * select deploy from a branch as source
+    * select gh-pages as branch at root (for this option to pop up the `docs.yml` file has to have run succesfully at least once)
 * Create a [visual representation](https://goodresearch.dev/_images/pcbi.1007358.g002.PNG_L.png) of how the different files interact with each other
 
 ## Making the repository citable
