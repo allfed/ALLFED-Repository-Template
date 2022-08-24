@@ -58,6 +58,8 @@ All the things for the small projects, but also:
     * go to Settings --> Pages 
     * select deploy from a branch as source
     * select gh-pages as branch at root (for this option to pop up the `docs.yml` file has to have run succesfully at least once)
+    * The end result will look something [like this](https://florianjehn.github.io/Seaweed-Growth-Model/)
+    * The automated documentation part is still a bit wip, if you run into problems contact florian@allfed.info
 * Create a [visual representation](https://goodresearch.dev/_images/pcbi.1007358.g002.PNG_L.png) of how the different files interact with each other
 
 ## Making the repository citable
