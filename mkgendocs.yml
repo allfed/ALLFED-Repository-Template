@@ -1,11 +1,11 @@
-site_name: Seaweed Growth Model
+site_name: My Super Cool Respository
 
 
 # Repository
-repo_name: Seaweed Growth Model
-repo: https://github.com/allfed/Seaweed-Growth-Model
+repo_name: My Super Cool Respository
+repo: https://github.com/allfed/My-Super-Cool-Respository
 # Copyright
 copyright: ALLFED
 
 #This specifies the autogeneration portion
-
+pages:
