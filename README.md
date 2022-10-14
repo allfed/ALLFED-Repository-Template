@@ -78,7 +78,7 @@ All ALLFED repositories should be citable by release. For this we use [Zenodo](h
 This repository already has the folder structure we use for repositories. Every folder has an additional readme, to tell you what needs to go in there. 
 
 ## Making the repository a pip installable Python package
-For some repositories it makes sense to make them installable via pip (e.g. a model we want to share easily). In this case you can use the explanation [here](https://goodresearch.dev/setup.html). This repository already contains a setup.py that can be used for that. 
+For some repositories it makes sense to make them installable via pip (e.g. a model we want to share easily). In this case you can use the explanation [here](https://goodresearch.dev/setup.html). This repository already contains a setup.py that can be used for that. If you want to install it to your local environment just run `pip install -e .` while being in the folder that contains setup.py.
 
 ## Environment
 Every ALLFED project is run in its own virtual environment. Therefore, every project needs an `environment.yml` file. The one in this repository is only an example and should not be used for any actual project. To create and organize virtual environments we use [conda](https://docs.conda.io/en/latest/miniconda.html). 
