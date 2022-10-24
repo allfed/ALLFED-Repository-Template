@@ -73,9 +73,16 @@ All ALLFED repositories should be citable by release. For this we use [Zenodo](h
 
 
 ---
+
+## Plotting Style Sheet
+All plots created for ALLFED should look and feel the same. You can activate the ALLFED style by simply starting your code with:
+
+`plt.style.use("https://raw.githubusercontent.com/allfed/ALLFED-matplotlib-style-sheet/main/ALLFED.mplstyle")`
+
+If you need to create your plots in ALLFED style, while being offline just download the file and change the path to local. 
    
 ## Project Skeleton
-This repository already has the folder structure we use for repositories. Every folder has an additional readme, to tell you what needs to go in there. 
+This repository already has the folder structure we use for repositories. Every folder has an additional readme, to tell you what needs to go in there.
 
 ## Making the repository a pip installable Python package
 For some repositories it makes sense to make them installable via pip (e.g. a model we want to share easily). In this case you can use the explanation [here](https://goodresearch.dev/setup.html). This repository already contains a setup.py that can be used for that. If you want to install it to your local environment just run `pip install -e .` while being in the folder that contains setup.py.
