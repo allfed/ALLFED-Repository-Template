@@ -80,8 +80,6 @@ All plots created for ALLFED should look and feel the same. You can activate the
 `plt.style.use("https://raw.githubusercontent.com/allfed/ALLFED-matplotlib-style-sheet/main/ALLFED.mplstyle")`
 
 If you need to create your plots in ALLFED style, while being offline just download the file and change the path to local. 
-
-If applicable we are using "PRGn" as our default colormap.
    
 ## Project Skeleton
 This repository already has the folder structure we use for repositories. Every folder has an additional readme, to tell you what needs to go in there.
