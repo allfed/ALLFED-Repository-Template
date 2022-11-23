@@ -1,8 +1,7 @@
 # ALLFED-Repository-Template
 Use this as template when you start a new project by clicking "Use this template" in the top right.
 
-## Writing Scientific Code
-**If you are not familiar with writing scientific code, please take the time to read through [this document](https://goodresearch.dev/)!**
+## If you are not familiar with writing scientific code, please take the time to read through [this document](https://goodresearch.dev/)!
 
 ## ALLFED Python Style Guide
 All code written for ALLFED should follow the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/). Especially important are:
