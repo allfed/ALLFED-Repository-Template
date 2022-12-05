@@ -1,8 +1,8 @@
 # ALLFED-Repository-Template
 
-** If you are not familiar with writing scientific code, please take the time to read through [this document](https://goodresearch.dev/)! **
+**If you are not familiar with writing scientific code, please take the time to read through [this document](https://goodresearch.dev/)!**
 
-** If you are not familiar with Github, please watch [this here](https://youtu.be/8Dd7KRpKeaE) first! **
+**If you are not familiar with Github, please watch [this here](https://youtu.be/8Dd7KRpKeaE) first!**
 
 ## How to use this template
 Use this as template when you start a new project by clicking "Use this template" in the top right.
