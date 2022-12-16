@@ -68,6 +68,9 @@ All the things for the small projects, but also:
     * The automated documentation part is still a bit wip, if you run into problems contact florian@allfed.info
 * Create a [visual representation](https://goodresearch.dev/_images/pcbi.1007358.g002.PNG_L.png) of how the different files interact with each other
 
+## Issues
+Every time you come across a problem that you do not plan to fix in the next day, please open an issue in the repository to make sure that it does not get lost. This also allows you to assign tasks to other coders on the team. For a short intro to issues, see [here](https://www.youtube.com/watch?v=TKJ4RdhyB5Y).
+
 ## Making the repository citable
 All ALLFED repositories should be citable by release. For this we use [Zenodo](https://zenodo.org/). This has to be activated by an Admin (so either Florian or Morgan). Once you have a manuscript where you need to cite the repository let them know and they will activate it. This will also create a doi badge, which should be included in the readme, like this:
 
