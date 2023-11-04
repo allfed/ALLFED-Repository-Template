@@ -1,6 +1,6 @@
 # ALLFED-Repository-Template
 
-**If this is the first time you want to use this template, please go through the [Github training](https://github.com/allfed/Github-Training-Repository/blob/main/README.md) first. This will give you the neccesary background knowledge to understand what is happening here. 
+If this is the first time you want to use this template, please go through the [Github training](https://github.com/allfed/Github-Training-Repository/blob/main/README.md) first. This will give you the neccesary background knowledge to understand what is happening here. 
 
 ## How to use this template
 Use this as template when you start a new project by clicking "Use this template" in the top right.
@@ -38,10 +38,11 @@ def count_line(f, line):
 To make this easier you can use linter (auto-formatter) that change your code to be formatted in PEP 8 when you safe it. E.g. [here for Spyder](https://stackoverflow.com/questions/51463223/how-to-use-pep8-module-using-spyder) or [VS Code](https://code.visualstudio.com/docs/python/linting). 
 
 ## Testing
-We want to create reliable code. This means, as much of the code needs to be automatically tested, to make sure that everything runs as intended. Therefore, every possible function should have some kind of `assert` that tests if it works. We use pytest [pytest](https://docs.pytest.org/en/7.1.x/) as our main test suit. All tests that you put in the tests folder in here are automatically run every time you push code. You can read more about testing [here](https://goodresearch.dev/testing.html). To adapt the testing.yml to your repository you just have to adapt the requirements in requirements.txt. Everything else should work on its own. You can find an example of how a test file should look like in the tests folder. Once you go the testing set up, also make sure to add the testing badge to the readme of your repository. Simply change the URL to your repository in this badge:
+We want to create reliable code. This means, as much of the code needs to be automatically tested, to make sure that everything runs as intended. Therefore, every reasonable function should have some kind of `assert` that tests if it works. We use pytest [pytest](https://docs.pytest.org/en/7.1.x/) as our main test suit. All tests that you put in the tests folder in here are automatically run every time you push code. You can read more about testing [here](https://goodresearch.dev/testing.html). To adapt the testing.yml to your repository you just have to adapt the requirements in requirements.txt. Everything else should work on its own. You can find an example of how a test file should look like in the tests folder. Once you go the testing set up, also make sure to add the testing badge to the readme of your repository. Simply change the URL to your repository in this badge:
 
 ![Testing](https://github.com/allfed/allfed-repository-template/actions/workflows/testing.yml/badge.svg)
 
+You don't have to test every possible function. Just make sure that those are tested where you are doing custom analysis. 
 
 ## Documenting in small projects
 Documenting your code is only one part of the documentation we want to create. Every larger repository needs:
