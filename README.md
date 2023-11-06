@@ -89,6 +89,23 @@ All plots created for ALLFED should look and feel the same. You can activate the
 `plt.style.use("https://raw.githubusercontent.com/allfed/ALLFED-matplotlib-style-sheet/main/ALLFED.mplstyle")`
 
 If you need to create your plots in ALLFED style, while being offline just download the file and change the path to local. 
+
+#### Map Projection
+
+For published maps we use the [Winkel Tripel projection](https://en.wikipedia.org/wiki/Winkel_tripel_projection). You can use it by reprojecting the CRS on geopandas to `+proj=wintri`.
+
+For example:
+
+```python
+world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres')) # Example world dataset
+world = world.to_crs('+proj=wintri') # Change projection to Winkel Tripel
+world.plot() # Plot the map
+```
+
+The result should look like this:
+![Map of the world using the Winkel Tripel projection.](https://i.stack.imgur.com/VpcP8.png)
+
+Important note: The Winkel Tripel projection is a compromise projection used purely for visuals. It is not equal-area, conformal, or equidistant. This means that the areas, angles, and distances are not preserved. We use this projection to make our maps as easy to read as possible, but if you need to do any calculations on the map, you need to use a different appropriate projection to get the correct results.
    
 ## Project Skeleton
 This repository already has the folder structure we use for repositories. Every folder has an additional readme, to tell you what needs to go in there.
