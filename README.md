@@ -117,6 +117,8 @@ For some repositories it makes sense to make them installable via pip (e.g. a mo
 ## Environment
 Every ALLFED project is run in its own virtual environment. Therefore, every project needs an `environment.yml` file. The one in this repository is only an example and should not be used for any actual project. To create and organize virtual environments we use [conda](https://docs.conda.io/en/latest/miniconda.html). 
 
+Please make sure to include version numbers in your `environment.yml`. Otherwise it will be really annoying to get it to run again in the future. 
+
 ## Requirements
 Every ALLFED project needs a requirements file that specifies what packages are needed to run the project. You can find an example file in the repository. If you use a lot of packages you can use [pipreqg](https://allfed.github.io/Seaweed-Growth-Model/) to find them all.  
 
