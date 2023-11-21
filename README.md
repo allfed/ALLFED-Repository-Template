@@ -90,21 +90,31 @@ All plots created for ALLFED should look and feel the same. You can activate the
 
 If you need to create your plots in ALLFED style, while being offline just download the file and change the path to local. 
 
-#### Map Projection
+### Map Projection
 
-For published maps we use the [Winkel Tripel projection](https://en.wikipedia.org/wiki/Winkel_tripel_projection). You can use it by reprojecting the CRS of your data on geopandas to `+proj=wintri`.
+For published maps we use the [Winkel Tripel projection](https://en.wikipedia.org/wiki/Winkel_tripel_projection). You can use it by reprojecting the CRS of your data on geopandas to `+proj=wintri`. The function in the example below can be used to include a border on your map, and modify the ALLFED plotting style to make sense for a map plot.
 
-For example:
 
 ```python
+# Add border to map, remove gridlines and ticks (after activating ALLFED style)
+def plot_winkel_tripel_map(ax): 
+    border_geojson = gpd.read_file('https://raw.githubusercontent.com/JuanesLamilla/winkel-tripel-border/main/border.geojson')
+    border_geojson.plot(ax=ax, edgecolor='black', linewidth=0.1, facecolor='none')
+    ax.grid(False)
+    ax.set_xticks([])
+    ax.set_yticks([])
+
 world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres')) # Example world dataset
 world = world.to_crs('+proj=wintri') # Change projection to Winkel Tripel
-world.plot() # Plot the map
+
+ax = world.plot() # Plot the map
+plot_winkel_tripel_map(ax) # Modify style and add border
+plt.show()
 ```
 
 The result should look like this:
 
-![Map of the world using the Winkel Tripel projection.](https://i.imgur.com/a1gQcAR.png)
+<img src="https://raw.githubusercontent.com/JuanesLamilla/winkel-tripel-border/main/winkel_tripel_map.png" width=50% height=50%>
 
 Important note: The Winkel Tripel projection is a compromise projection used purely for visuals. It is not equal-area, conformal, or equidistant. This means that the areas, angles, and distances are not preserved. We use this projection to make our maps as easy to read as possible, but if you need to do any calculations on the map, you need to use a different appropriate projection to get the correct results. To learn more about map projections with geopandas, see [here](https://geopandas.org/en/v0.14.0/docs/user_guide/projections.html).
    
