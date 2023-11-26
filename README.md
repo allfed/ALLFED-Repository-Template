@@ -100,9 +100,7 @@ For published maps we use the [Winkel Tripel projection](https://en.wikipedia.or
 def plot_winkel_tripel_map(ax): 
     border_geojson = gpd.read_file('https://raw.githubusercontent.com/JuanesLamilla/winkel-tripel-border/main/border.geojson')
     border_geojson.plot(ax=ax, edgecolor='black', linewidth=0.1, facecolor='none')
-    ax.grid(False)
-    ax.set_xticks([])
-    ax.set_yticks([])
+    ax.set_axis_off()
 
 world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres')) # Example world dataset
 world = world.to_crs('+proj=wintri') # Change projection to Winkel Tripel
